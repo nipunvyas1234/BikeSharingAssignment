@@ -1,5 +1,9 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing Assignment
+> We have to build a multiple linear regression model for the prediction of demand for shared bikes.
+> A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue. They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
+
+Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
 
 
 ## Table of Contents
@@ -11,26 +15,33 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
+- We want to understand the factors on which the demand for shared bikes depends. Specifically, to understand the factors affecting the demand for these shared bikes in the American market. The ask here is to know:
+
+Which variables are significant in predicting the demand for shared bikes.
+How well those variables describe the bike demands
+
+For this we will use linear regression model
 - What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The project is trying to come up with a linear rigression model which will predict the variables on which the bike sharing demand is dependent on. Based on these variable a business can take appropriate decisions
+- A dataset has been provided in the problem with name day.csv. This particular dataset was used for analysis
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- There is significant rise in demand of bikes (cnt) from 2018 to 2019
+- From may to october the demand is significantly high
+- Demand does not vary on working day or weekend
+- In holidays demand is significantly low compared to non-holidays
+- Demand of bikes depend on year, holiday, temp, windspeed, sep, Light_snowrain, Misty, spring and winter.
+-
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Jupyter notebook
+- Various python modules
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
